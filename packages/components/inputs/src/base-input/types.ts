@@ -11,9 +11,9 @@ export interface BaseInputInternalProps extends CommonProps {
    */
   id?: string;
   /**
-   * Allows to render input | textarea tag
+   * Allows to render input | textarea | select tag
    */
-  as?: 'input' | 'textarea'; // TODO: we can extend to select
+  as?: 'input' | 'textarea' | 'select';
   /**
    * Label value is set as aria-label attribute in the input
    */

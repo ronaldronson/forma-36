@@ -49,6 +49,7 @@ const _BaseInput: PolymorphicComponentWithRef<
     willBlurOnEsc = true,
     style,
     icon,
+    children,
     ...otherProps
   } = props;
   const [valueState, setValueState] = useState<string | undefined>(value);
@@ -133,6 +134,29 @@ const _BaseInput: PolymorphicComponentWithRef<
 
   if (as === 'textarea') {
     return inputContent();
+  }
+
+  if (as === 'select') {
+    <Element
+      {...otherProps}
+      {...primitiveProps}
+      data-test-id={testId}
+      placeholder={placeholder}
+      className={cx(styles.input, className)}
+      value={valueState}
+      name={name}
+      type={type}
+      ref={ref}
+      aria-label={label}
+      id={id}
+      disabled={isDisabled}
+      onChange={handleChange}
+      onBlur={onBlur}
+      onKeyDown={handleKeyDown}
+      onFocus={handleFocus}
+    >
+      {children}
+    </Element>;
   }
 
   if (icon) {

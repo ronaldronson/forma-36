@@ -33,6 +33,18 @@ export const Basic = () => {
           placeholder="placeholder"
           id="4"
           type="text"
+          as="select"
+        >
+          some children
+        </BaseInput>
+      </Flex>
+      <Flex marginBottom="spacingM">
+        <BaseInput
+          name="someOtherOption"
+          label="this is my label"
+          placeholder="placeholder"
+          id="4"
+          type="text"
           as="textarea"
         />
       </Flex>

@@ -5,7 +5,7 @@ import { Option } from './Option';
 import { Flex } from '@contentful/f36-core';
 
 export default {
-  title: 'Form Elements/Select',
+  title: 'Form Elements old/Select',
   component: Select,
   parameters: {
     propTypes: [Select['__docgenInfo']],

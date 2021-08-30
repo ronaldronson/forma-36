@@ -4,7 +4,7 @@ import { SelectField, SelectFieldProps } from './SelectField';
 import { Option } from '../Select';
 
 export default {
-  title: 'Form Elements/SelectField',
+  title: 'Form Elements old/SelectField',
   component: SelectField,
   parameters: {
     propTypes: [SelectField['__docgenInfo']],
