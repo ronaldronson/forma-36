@@ -9,9 +9,9 @@ export default {
   title: 'Form Elements/Select',
 } as Meta;
 
-export const Default: Story<SelectProps> = (args) => {
+export const Default: Story<SelectProps> = () => {
   return (
-    <Select id="optionSelect" name="optionSelect" width={args.width}>
+    <Select id="optionSelect" name="optionSelect" label="test">
       <Option value="optionOne">Option 1</Option>
       <Option value="optionTwo">Long Option 2</Option>
     </Select>
