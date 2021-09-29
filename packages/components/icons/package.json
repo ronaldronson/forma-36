@@ -4,7 +4,8 @@
   "description": "Forma 36: Icon components",
   "license": "MIT",
   "scripts": {
-    "build": "node scripts/preBuild.js && parcel build src/index.ts"
+    "build": "node scripts/preBuild.js && yarn build:prod",
+    "build:prod": "microbundle build --entry src/index.ts --sourcemap false --jsx React.createElement --output dist --format modern,esm,cjs --tsconfig ./tsconfig.build.json"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.2",
@@ -20,10 +21,11 @@
     "dist",
     "src"
   ],
-  "main": "dist/main.js",
-  "module": "dist/module.js",
-  "types": "dist/types.d.ts",
-  "source": "src/index.ts",
+  "exports": "./dist/f36-icons.modern.js",
+  "main": "./dist/f36-icons.js",
+  "module": "./dist/f36-icons.module.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "sideEffects": false,
   "browserslist": "extends @contentful/browserslist-config",
   "repository": {
