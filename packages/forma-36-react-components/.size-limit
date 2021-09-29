@@ -1,6 +1,6 @@
 [
   {
-    "path": "dist/main.js",
+    "path": "dist/f36-components.cjs",
     "name": "gzipped js",
     "gzip": false,
     "limit": "320 KB",
