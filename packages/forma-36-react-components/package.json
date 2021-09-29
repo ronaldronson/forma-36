@@ -7,6 +7,7 @@
   "main": "./dist/f36-components.cjs",
   "module": "./dist/f36-components.module.js",
   "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "files": [
     "dist"
@@ -15,7 +16,7 @@
   "browserslist": "extends @contentful/browserslist-config",
   "scripts": {
     "build:clean": "rm -rf dist",
-    "build:prod": "microbundle build --sourcemap false --jsx React.createElement --output dist --format modern,esm,cjs",
+    "build:prod": "microbundle build --entry src/index.ts --sourcemap false --jsx React.createElement --output dist --format modern,esm,cjs --tsconfig ./tsconfig.build.json",
     "build": "yarn build:clean && yarn build:prod && yarn size",
     "size": "size-limit",
     "semantic-release": "semantic-release"
