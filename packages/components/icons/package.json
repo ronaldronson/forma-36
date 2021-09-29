@@ -21,8 +21,9 @@
     "dist",
     "src"
   ],
+  "type": "module",
   "exports": "./dist/f36-icons.modern.js",
-  "main": "./dist/f36-icons.js",
+  "main": "./dist/f36-icons.cjs",
   "module": "./dist/f36-icons.module.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",

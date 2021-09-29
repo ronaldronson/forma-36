@@ -126,6 +126,7 @@
     "jest-emotion": "^10.0.27",
     "jest-watch-typeahead": "0.6.1",
     "lerna": "^3.22.1",
+    "microbundle": "^0.13.3",
     "parcel": "2.0.0-beta.3.1",
     "plop": "^2.5.3",
     "postcss": "^8.2.2",
@@ -137,7 +138,6 @@
     "postcss-url": "^10.1.1",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.1",
-    "microbundle": "^0.13.3",
     "react": "16.14.0",
     "react-docgen-typescript": "^1.21.0",
     "react-dom": "16.14.0",
@@ -151,5 +151,6 @@
   "engines": {
     "node": ">=14.5.0",
     "yarn": ">=1.21.0"
-  }
+  },
+  "dependencies": {}
 }
