@@ -125,64 +125,8 @@ module.exports = {
         link: '',
         menuLinks: [
           {
-            name: 'Layout Components',
-            link: '',
-            menuLinks: [
-              {
-                name: 'Box',
-                link: '/components/box/',
-              },
-              {
-                name: 'Flex',
-                link: '/components/flex/',
-              },
-              {
-                name: 'Stack',
-                link: '/components/stack/',
-              },
-              {
-                name: 'Grid',
-                link: '/components/grid/',
-              },
-            ],
-          },
-          {
-            name: 'Typography Components',
-            link: '',
-            menuLinks: [
-              {
-                name: 'Text',
-                link: '/components/text/',
-              },
-              {
-                name: 'Paragraph',
-                link: '/components/paragraph/',
-              },
-              {
-                name: 'Heading',
-                link: '/components/heading/',
-              },
-              {
-                name: 'SectionHeading',
-                link: '/components/section-heading/',
-              },
-              {
-                name: 'Subheading',
-                link: '/components/subheading/',
-              },
-              {
-                name: 'DisplayText',
-                link: '/components/display-text/',
-              },
-            ],
-          },
-          {
             name: 'Accordion',
             link: '/components/accordion/',
-          },
-          {
-            name: 'Asset',
-            link: '/components/asset/',
           },
           {
             name: 'Autocomplete',
@@ -225,14 +169,6 @@ module.exports = {
                 link: '/components/datetime-functions/',
               },
             ],
-          },
-          {
-            name: 'Popover',
-            link: '/components/popover/',
-          },
-          {
-            name: 'Menu',
-            link: '/components/menu/',
           },
           {
             name: 'EntityList',
@@ -286,10 +222,6 @@ module.exports = {
             link: '/components/icon-button/',
           },
           {
-            name: 'List',
-            link: '/components/list/',
-          },
-          {
             name: 'Modals',
             link: '',
             menuLinks: [
@@ -314,6 +246,46 @@ module.exports = {
           {
             name: 'Notification',
             link: '/components/notification/',
+          },
+          {
+            name: 'Layout Components',
+            link: '',
+            menuLinks: [
+              {
+                name: 'Box',
+                link: '/components/box/',
+              },
+              {
+                name: 'Flex',
+                link: '/components/flex/',
+              },
+              {
+                name: 'Stack',
+                link: '/components/stack/',
+              },
+              {
+                name: 'Grid',
+                link: '/components/grid/',
+              },
+            ],
+          },
+          {
+            name: 'List',
+            link: '/components/list/',
+          },
+          {
+            name: 'Menu Components',
+            link: '',
+            menuLinks: [
+              {
+                name: 'Menu',
+                link: '/components/menu/',
+              },
+              {
+                name: 'Popover',
+                link: '/components/popover/',
+              },
+            ],
           },
           {
             name: 'Pill',
@@ -372,6 +344,36 @@ module.exports = {
           {
             name: 'Tooltip',
             link: '/components/tooltip/',
+          },
+          {
+            name: 'Typography Components',
+            link: '',
+            menuLinks: [
+              {
+                name: 'Text',
+                link: '/components/text/',
+              },
+              {
+                name: 'Paragraph',
+                link: '/components/paragraph/',
+              },
+              {
+                name: 'Heading',
+                link: '/components/heading/',
+              },
+              {
+                name: 'SectionHeading',
+                link: '/components/section-heading/',
+              },
+              {
+                name: 'Subheading',
+                link: '/components/subheading/',
+              },
+              {
+                name: 'DisplayText',
+                link: '/components/display-text/',
+              },
+            ],
           },
           {
             name: 'Workbench',
