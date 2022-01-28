@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ReactNode } from 'react'
+import type { ReactNode } from 'react';
 import { cx } from 'emotion';
 import { CommonProps, Box } from '@contentful/f36-core';
 import { Heading, Paragraph } from '@contentful/f36-typography';
