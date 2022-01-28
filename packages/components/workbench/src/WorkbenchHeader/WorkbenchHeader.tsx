@@ -1,4 +1,5 @@
 import React from 'react';
+import type { ReactNode } from 'react'
 import { cx } from 'emotion';
 import { CommonProps, Box } from '@contentful/f36-core';
 import { Heading, Paragraph } from '@contentful/f36-typography';
@@ -10,7 +11,7 @@ import { getWorkbenchHeaderStyles } from './WorkbenchHeader.styles';
 
 export interface WorkbenchHeaderProps extends CommonProps {
   /** This is the title that will be shown inside the Header component */
-  title: string;
+  title: ReactNode;
   /** This is the icon that will be shown on the left side of the title and it's possible to use Forma 36’s icons or external icons */
   icon?: IconComponent;
   /** This is the text that will be shown on the right side of the title in the Header component */
